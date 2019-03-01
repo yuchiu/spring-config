@@ -6,16 +6,16 @@ public class HelloWorldInitializer extends AbstractAnnotationConfigDispatcherSer
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[0];
+        return new Class<?>[]{HelloWorldConfiguration.class};
     }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[0];
+        return null;
     }
 
     @Override
     protected String[] getServletMappings() {
-        return new String[0];
+        return new String[]{"/"};
     }
 }

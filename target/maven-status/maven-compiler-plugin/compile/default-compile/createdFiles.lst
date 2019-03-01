@@ -1,0 +1,4 @@
+com/yuchiu/config/HelloWorldConfiguration.class
+com/yuchiu/config/controller/HelloWorldRestController.class
+com/yuchiu/config/HelloWorldInitializer.class
+com/yuchiu/config/domain/Message.class
